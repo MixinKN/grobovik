@@ -1,0 +1,92 @@
+.header {
+    background-color: #121a25;
+}
+
+.header__black {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+
+.header__black-sale {
+    color: white;
+}
+
+.header__black-widgets {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.header__black-widgets-item {
+    display: flex;
+}
+
+.header__black-currency {
+    color: white;
+}
+
+.header__black-language {
+    color: white;
+}
+
+.header__white {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header__white-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    column-gap: 45px;
+}
+
+.header__menu-item {
+    color: #666666;
+    font-size: 20px;
+}
+
+.header__widgets {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.header__widgets-item {
+    font-size: 24px;
+    color: #666666;
+    outline: none;
+    border: none;
+    text-decoration: unset;
+    position: relative;
+}
+
+.header__widgets-counter {
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*сделать счётчик, должен отображаться когда, что-то добавляют в корзину*/
+    top: -8px;
+    right: -12px;
+    /*для двух символов размер 12px*/
+    font-size: 10px;
+}
+

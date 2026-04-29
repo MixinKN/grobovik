@@ -1,0 +1,16 @@
+body {
+    margin: unset;
+}
+
+.text--white {
+    color: white;
+}
+
+ul {
+    padding: unset;
+}
+
+a {
+    text-decoration: unset;
+    outline: unset;
+}
