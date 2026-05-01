@@ -44,3 +44,21 @@
 .header__black-currency {
     cursor: pointer;
 }
+
+.menu--dropdown {
+    top: 90px;
+}
+
+.menu--dropdown-item {
+    box-sizing: unset;
+    border-bottom: unset;
+}
+
+.menu--dropdown-item:hover {
+    background-color: unset;
+}
+
+.menu--dropdown-link:hover {
+    transition: 500ms;
+    color: red;
+}

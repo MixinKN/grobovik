@@ -54,6 +54,12 @@
 .header__menu-item {
     color: #666666;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.header__menu-item:hover {
+    transition: 500ms;
+    color: red;
 }
 
 .header__widgets {

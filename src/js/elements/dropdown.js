@@ -1,9 +1,9 @@
-export function dropdown(containerSelector = '.header__black-widgets-item') {
+export function dropdown(containerSelector = '.dropdown--wrapper') {
     // Находим все контейнеры с дропдаунами
     const containers = document.querySelectorAll(containerSelector);
 
     containers.forEach(container => {
-        const button = container.querySelector('.header__black-currency');
+        const button = container.querySelector('.dropdown--button');
         const menu = container.querySelector('.dropdown__content');
 
         if (!button || !menu) return;
